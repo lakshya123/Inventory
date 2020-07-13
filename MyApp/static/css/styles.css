@@ -1,0 +1,37 @@
+.title{
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 40px;
+  color: #2e6da4;
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/bg.png");
+}
+
+.flt-search #div_id_Title, 
+.flt-search #div_id_Author,
+.flt-search #div_id_Subject,
+.flt-search #div_id_Language{
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+/*Color, align and shadow the table*/
+table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 12px 12px 20px 6px #2e6da4;
+    font-size: 15px;
+  }
+  
+  /*Make alternating colors for the table rows*/
+  table tr:nth-child(odd){
+    background: #B8CAE4
+  }
+   
+  table tr:nth-child(even){
+   background: #dae5f4
+  }
