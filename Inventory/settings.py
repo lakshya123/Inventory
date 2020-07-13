@@ -25,7 +25,7 @@ SECRET_KEY = 'v%a8^j=phnb$#1k^i$95s9$_*07%oytgd5_a#dkg^vh!&9si^@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['frozen-reaches-44896.herokuapp.com']
 
 
 # Application definition
